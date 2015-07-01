@@ -5,5 +5,5 @@ This project is intended to ease the use of common JS functionalities and minimi
 
 Currently Supported Functionality
 
-- Making Ajax Posts
-
+- Making Ajax Posts with parameters using minimal code 
+- Making Ajax Posts without parameters using minimal code
