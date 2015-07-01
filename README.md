@@ -7,3 +7,6 @@ Currently Supported Functionality
 
 - Making Ajax Posts with parameters using minimal code 
 - Making Ajax Posts without parameters using minimal code
+
+
+Simply import "razax.js" to get going !!!
