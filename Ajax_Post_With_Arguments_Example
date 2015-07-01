@@ -7,10 +7,10 @@
   SampleObj.ObjectProperty1 = Property1Val;
   SampleObj.ObjectProperty2 = Property2Val;
   
-  var AjaxCaller = new razax.zhr("PageName.aspx/WebMethodName", "CallBackFunctionName");
+  var AjaxCaller = new razax.zhr("PageName.aspx/WebMethodName", "SuccessFunctionName");
   AjaxCaller.dopost(SampleObj);
   
-  function CallBackFunctionName(ReturnValue){
+  function SuccessFunctionName(ReturnValue){
     //Perform action on return value
   }
 ////////////////EXAMPLE 1 ENDS HERE///////////////
@@ -21,10 +21,10 @@
   SampleObj.ObjectProperty1 = Property1Val;
   SampleObj.ObjectProperty2 = Property2Val;
   
-  var AjaxCaller = new razax.zhr("/WebMethodName", "CallBackFunctionName");
+  var AjaxCaller = new razax.zhr("/WebMethodName", "SuccessFunctionName");
   AjaxCaller.dopost(SampleObj);
   
-  function CallBackFunctionName(ReturnValue){
+  function SuccessFunctionName(ReturnValue){
     //Perform action on return value
   }
 ////////////////EXAMPLE 2 ENDS HERE///////////////
