@@ -2,10 +2,9 @@
 
 //Making Ajax Post Without Argument(s):
 ////////////////EXAMPLE 1 ///////////////
-//using with ASP.Net Example:
+//using with ASP.Net Web Form Example:
 
-  var AjaxCaller = new razax.zhr("PageName.aspx/WebMethodName", "SuccessFunctionName");
-  AjaxCaller.dopost();
+  var AjaxCaller = new rx.zhr("PageName.aspx/WebMethodName", "SuccessFunctionName","POST").do();
   
   function SuccessFunctionName(ReturnValue){
     //Perform action on return value
@@ -14,9 +13,9 @@
 
 ////////////////EXAMPLE 2 ///////////////
 //using with Bottle or any other frameworks:
+//can switch between GET and POST actions
   
-  var AjaxCaller = new razax.zhr("/WebMethodName", "SuccessFunctionName");
-  AjaxCaller.dopost();
+  var AjaxCaller = new rx.zhr("/WebMethodName", "SuccessFunctionName","POST").do();
   
   function SuccessFunctionName(ReturnValue){
     //Perform action on return value
