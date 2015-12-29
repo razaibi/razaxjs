@@ -3,7 +3,7 @@
   SampleObj.ObjectProperty2 = Property2Val;
   
   // The Ajax Call
-  var AjaxCaller = rx.zhr("/WebMethodName","ShowResult").dopost(SampleObj);
+  var AjaxCaller = rx.zhr("/WebMethodName","ShowResult","POST").do(SampleObj);
   // Call Ends Here
   
   function ShowResult(ReturnValue){
