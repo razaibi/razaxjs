@@ -16,4 +16,4 @@ Simply import "razax.min.js" to get going !!!
 
 Currently used on : http://www.razengo.com
 
-try typing something  like "call of duty" (without the quotes) in the search to see the library in action.
+try typing something  like "airways" (without the quotes) in the search to see the library in action.
